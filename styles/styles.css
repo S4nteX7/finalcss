@@ -1,0 +1,201 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    background-color: #8507D9;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.contenedor-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+.contenedor-banners {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
+
+.banners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-juegos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.producto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: aliceblue;
+    margin: 0px;
+}
+
+body {
+    background-color: #14162E;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+.banners h2 {
+    text-align: center;
+}
+
+.portadas {
+    max-width: 500px;
+    height: auto;
+}
+
+.section-title {
+    color: #0f428d;
+}
+
+
+.footer-text {
+    color: aliceblue;   
+}
+
+.seccion {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+img {
+    color: #8507D9;
+}
+
+.product-name {
+    margin: 0px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    height: 100vh;
+}
+
+.contact-form {
+    background-color: #8507D9;
+    padding: 50px;
+    padding-top: 0px;
+    border-radius: 10px;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-division {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-division label {
+    font-size: 25px;
+}
+
+.form-division input {
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+.textarea-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+textarea {
+    min-width: 400px;
+    max-width: 400px;
+    min-height: 50px;
+    max-height: 500px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.form-division button {
+    font-size: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #14162E;
+    cursor: pointer;
+}
+
+button {
+    color: aliceblue;
+}
+
+.contenedor-boton {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-boton button {
+    background-color: #8507D9;
+    width: 150px;
+    height: 50px;
+}
+
+.contenedor-boton button a {
+    font-size: 25px;
+}
