@@ -10,21 +10,22 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="../index.html">
-                    <img src="../images/logo_hey_gamers.png" alt="Logo de la tienda">
-                </a>
-            </div>
-            <ul class="contenedor-nav">
-                <li><a href="../index.html#categorias">Categorías</a></li>
-                <li><a href="../index.html#softwares">Softwares</a></li>
-                <li><a href="../index.html#suscripciones">Suscripciones</a></li>
-                <li><a href="./juegos.html">Juegos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>   
+    <nav>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo_hey_gamers.png" alt="Logo de la tienda">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="../index.html#categorias">Categorías</a></li>
+            <li><a href="../index.html#softwares">Softwares</a></li>
+            <li><a href="../index.html#suscripciones">Suscripciones</a></li>
+            <li><a href="./juegos.html">Juegos</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+  </header>
     <main>
         <section class="contact-container">
           <form class="contact-form">
@@ -39,7 +40,7 @@
                 type="email"
                 id="email"
                 name="email"
-                placeholder="luka@example.com"
+                placeholder="example@gmail.com"
                 autocomplete="off"
               />
             </div>
@@ -53,9 +54,39 @@
           </form>
         </section>
       </main>
-    <footer class="site-footer">
-        <p class="footer-text">&copy; 2023 Tienda de Videojuegos</p>
-        <p class="footer-text">Contacto: info@tiendavideojuegos.com</p>
+      <footer>
+        <div class="footer-container">
+
+            <!-- Sección 1 -->
+            <div class="footer-section">
+                <h3>Enlaces</h3>
+                <ul class="footer-list">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="#">Acerca de nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="./pages/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <!-- Sección 2 -->
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Dirección: Calle Ejemplo, Ciudad</p>
+                <p>Email: info@heygamers.com</p>
+                <p>Teléfono: +123 456 789</p>
+            </div>
+
+            <!-- Sección 3 -->
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+            </div>
+
+        </div>
     </footer>
 </body>
 
